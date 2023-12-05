@@ -1,0 +1,14 @@
+{
+  "name": "phase-1-slicing-brawl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Norman Andriansyah",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "tailwind-watch": "yarn tailwindcss -i ./src/main.css -o ./public/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
