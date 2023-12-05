@@ -33,6 +33,10 @@
         @apply flex gap-4 p-6 items-center rounded-lg;
         box-shadow: 6px 20px 40px 5px rgba(0, 0, 0, 0.04);
     }
+
+    .footer-link-item {
+        @apply text-white text-opacity-60 hover:text-opacity-100 transition no-underline;
+    }
 }
 
 @layer utilities {
