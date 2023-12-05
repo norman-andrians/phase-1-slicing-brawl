@@ -2,7 +2,7 @@
 
 Penyerahan tugas kompetisi Liga SMK dari SMK Coding fase pertama
 
-Dari: Norman Andrinsyah, SMK Wiraswasta, kelas 11 RPL C
+Dari: Norman Andriansyah, SMK Wiraswasta, kelas 11 RPL C
 
 ## Penggunaan
 
