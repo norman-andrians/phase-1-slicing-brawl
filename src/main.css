@@ -7,7 +7,7 @@
         @apply w-[1280px] mx-auto;
     }
     .base-header-1 {
-        @apply text-5xl leading-[3.5rem] font-bold;
+        @apply text-[2.5rem] leading-[3.5rem] font-bold;
     }
     .base-header-2 {
         @apply text-4xl font-bold;
@@ -27,6 +27,11 @@
     .row-item-selected {
         @apply bg-white text-black;
         box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .list-grid {
+        @apply flex gap-4 p-6 items-center rounded-lg;
+        box-shadow: 6px 20px 40px 5px rgba(0, 0, 0, 0.04);
     }
 }
 
