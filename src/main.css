@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .base-container {
+        @apply w-[1280px];
+    }
+}
