@@ -13,7 +13,8 @@ module.exports = {
         'pink-d-bg': '#FFF0E5'
       },
       fontFamily: {
-        'dm-sans': 'DM Sans'
+        'dm-sans': 'DM Sans',
+        'roboto': 'Roboto'
       }
     },
   },

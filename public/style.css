@@ -643,6 +643,30 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -793,6 +817,10 @@ video {
   gap: 2.25rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -908,6 +936,10 @@ video {
 
 .font-dm-sans {
   font-family: DM Sans;
+}
+
+.font-roboto {
+  font-family: Roboto;
 }
 
 .text-2xl {
