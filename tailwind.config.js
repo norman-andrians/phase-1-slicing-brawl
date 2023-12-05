@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         'primary': '#3A10E5',
         'primary-bg': '#F0F3FF',
-        'tertiary': '#707070'
+        'primary-dark': '#340cd3',
+        'tertiary': '#707070',
+        'yellow-d': '#FACB3B'
       },
       fontFamily: {
         'dm-sans': 'DM Sans'
