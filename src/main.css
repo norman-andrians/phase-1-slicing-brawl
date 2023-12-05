@@ -45,6 +45,6 @@
     }
     .underlined-yellow {
         @apply relative before:content-[''];
-        @apply before:absolute before:-z-20 before:w-full before:h-3 before:bg-[#FDD5A1] before:bottom-0;
+        @apply before:absolute before:-z-20 before:w-full before:h-4 before:bg-[#FDD5A1] before:bottom-0;
     }
 }
