@@ -6,16 +6,36 @@
     .base-container {
         @apply w-[1280px] mx-auto;
     }
+    .base-header-1 {
+        @apply text-5xl leading-[3.5rem] font-bold;
+    }
+    .base-header-2 {
+        @apply text-4xl font-bold;
+    }
+
     .btn-primary {
         @apply bg-primary text-white w-64 text-left rounded-md py-4 px-7 hover:bg-primary-dark transition;
     }
+
     .nav-item {
         @apply flex items-center gap-1 hover:opacity-80 transition;
+    }
+
+    .filter-row-item {
+        @apply px-4 py-2 text-tertiary font-semibold;
+    }
+    .row-item-selected {
+        @apply bg-white text-black;
+        box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.2);
     }
 }
 
 @layer utilities {
     .fill-all-primary, .fill-all-primary > * {
         @apply fill-primary;
+    }
+    .underlined-yellow {
+        @apply relative before:content-[''];
+        @apply before:absolute before:-z-20 before:w-full before:h-3 before:bg-[#FDD5A1] before:bottom-0;
     }
 }

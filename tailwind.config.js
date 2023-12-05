@@ -8,7 +8,8 @@ module.exports = {
         'primary-bg': '#F0F3FF',
         'primary-dark': '#340cd3',
         'tertiary': '#707070',
-        'yellow-d': '#FACB3B'
+        'yellow-d': '#FACB3B',
+        'pink-d-bg': '#FFF0E5'
       },
       fontFamily: {
         'dm-sans': 'DM Sans'
