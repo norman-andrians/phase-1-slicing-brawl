@@ -10,11 +10,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="bg-white fixed w-screen">
+        <div class="flex justify-between items-center base-container mx-auto py-6">
+            <picture>
+                <a href="/">
+                    <img src="./assets/logo-ligasmk-dark.png" alt="Liga SMK">
+                </a>
+            </picture>
+            <div class="flex gap-10 font-dm-sans font-semibold">
+                <a href="#" class="nav-item no-underline">
+                    <div class="text-primary text-lg">Home</div>
+                    <div>
+                        <svg width="10" height="15" viewBox="0 0 10 15" fill="#3A10E5" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_591)">
+                                <path
+                                    d="M4.70123 10.1868L0.654358 6.16724C0.490295 6.00317 0.490295 5.84823 0.654358 5.70239L1.17389 5.15552C1.33795 5.00968 1.4929 5.00968 1.63873 5.15552L4.91998 8.40942L8.20123 5.15552C8.34707 5.00968 8.50201 5.00968 8.66608 5.15552L9.18561 5.70239C9.34967 5.84823 9.34967 6.00317 9.18561 6.16724L5.13873 10.1868C4.9929 10.3326 4.84707 10.3326 4.70123 10.1868Z"
+                                    fill="#3A10E5" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_591">
+                                    <rect width="8.75" height="14" fill="white" transform="matrix(1 0 0 -1 0.531311 14.6711)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="text-base">About Us</div>
+                    <div>
+                        <img src="./assets/icon-arrow-bottom.svg" />
+                    </div>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="text-base">Kelas</div>
+                    <div>
+                        <img src="./assets/icon-arrow-bottom.svg" />
+                    </div>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="text-base">Blog</div>
+                    <div>
+                        <img src="./assets/icon-arrow-bottom.svg" />
+                    </div>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="text-base">Kontak</div>
+                </a>
+            </div>
+        </div>
+    </nav>
     <section class="bg-primary-bg h-screen font-dm-sans grid items-center">
         <div class="base-container flex flex-nowrap justify-between mx-auto items-center gap-36">
-            <header class="basis-1/2">
-                <h1 class="text-7xl font-bold leading-[5rem] tracking-wide">Bergabunglah dengan jutaan orang dan belajar hal baru</h1>
+            <header class="basis-1/2 flex flex-col gap-9">
+                <h1 class="text-7xl font-bold leading-[5.5rem] tracking-wide">Bergabunglah dengan jutaan orang dan belajar hal baru</h1>
                 <p class="text-xl text-tertiary">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital</p>
+                <button class="btn-primary font-dm-sans flex flex-row items-center justify-between">
+                    <div>
+                        Mulai Belajar
+                    </div>
+                    <div>
+                        <img src="./assets/icon-arrowlong-right.svg" />
+                    </div>
+                </button>
             </header>
             <picture class="basis-1/2">
                 <img src="./assets/shape-diagram.png" class="w-full h-auto" alt="Woman in shape diagram">

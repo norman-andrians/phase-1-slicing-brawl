@@ -6,4 +6,16 @@
     .base-container {
         @apply w-[1280px];
     }
+    .btn-primary {
+        @apply bg-primary text-white w-64 text-left rounded-md py-4 px-7;
+    }
+    .nav-item {
+        @apply flex items-center gap-1 hover:opacity-80 transition;
+    }
+}
+
+@layer utilities {
+    .fill-all-primary, .fill-all-primary > * {
+        @apply fill-primary;
+    }
 }
